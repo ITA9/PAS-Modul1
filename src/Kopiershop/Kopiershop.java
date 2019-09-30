@@ -15,7 +15,7 @@ public class Kopiershop {
         Scanner sc = new Scanner(System.in);
 
         // Eingabe
-
+dd
 
 
         System.out.println("Wieviele Kopien möchten sie anfertigen?");
