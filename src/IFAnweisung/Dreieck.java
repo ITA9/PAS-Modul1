@@ -1,4 +1,4 @@
-/*
+package IFAnweisung;/*
  *
  *
  *
@@ -9,7 +9,6 @@
  */
 
 import java.util.Scanner;
-
 public class Dreieck {
 
     // Eingabe
