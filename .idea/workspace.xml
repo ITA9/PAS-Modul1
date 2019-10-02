@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0fd25069-c7f9-48be-a02a-47a69e8463cf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/mg.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plugins/IntelliJ/HighlightBracketPair-1.1.2.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plugins/IntelliJ/de_neu.dic" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plugins/IntelliJ/intellij-rainbow-brackets-5.23.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plugins/IntelliJ/saros-intellij-0.2.1.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/IFAnweisung/sc.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/IFAnweisung/Kopiershop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/IFAnweisung/Kopiershop.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -31,7 +25,11 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1Re77LjlUxPG0bpFsHjeS1Nr6Zv" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
@@ -115,6 +113,7 @@
       <workItem from="1570015859593" duration="417000" />
       <workItem from="1570016310230" duration="281000" />
       <workItem from="1570016724400" duration="815000" />
+      <workItem from="1570048254203" duration="810000" />
     </task>
     <task id="LOCAL-00001" summary="ss">
       <created>1569836701486</created>
@@ -143,6 +142,7 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="ss" />
     <option name="LAST_COMMIT_MESSAGE" value="ss" />
   </component>
