@@ -13,8 +13,10 @@ public class Dreieck {
 
     // Eingabe
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
 
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Fehler!:");
+        System.out.println("Bitte geben sie nur Ja oder Nein an, da die folgende Berechnungen sonst verfälscht werden können!");
         System.out.println("Strecke a:");
         double a = sc.nextDouble();
 
@@ -40,5 +42,4 @@ public class Dreieck {
     } // end of main
 
 } // end of class IF
-
 

@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0fd25069-c7f9-48be-a02a-47a69e8463cf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/IFAnweisung/sc.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/IFAnweisung/Dreieck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/IFAnweisung/Dreieck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/IFAnweisung/Kopiershop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/IFAnweisung/Kopiershop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/IFAnweisung/sc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/IFAnweisung/sc.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -113,7 +115,7 @@
       <workItem from="1570015859593" duration="417000" />
       <workItem from="1570016310230" duration="281000" />
       <workItem from="1570016724400" duration="815000" />
-      <workItem from="1570048254203" duration="810000" />
+      <workItem from="1570048254203" duration="1869000" />
     </task>
     <task id="LOCAL-00001" summary="ss">
       <created>1569836701486</created>

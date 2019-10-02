@@ -11,6 +11,10 @@ import java.util.Scanner;
 
 public class Kopiershop {
 
+    public static void error() {
+        System.out.println("Fehler!:");
+        System.out.println("Bitte geben sie nur Ja oder Nein an, da die folgende Berechnungen sonst verfälscht werden können!");
+    }
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -36,8 +40,7 @@ public class Kopiershop {
         double anzahlpreis = preis * anzahlKopien;
 
         if (!stammkunde.equalsIgnoreCase("Ja") || !stammkunde.equalsIgnoreCase("Nein") ) {
-            System.out.println("Fehler!:");
-            System.out.println("Bitte geben sie nur Ja oder Nein an, da die folgende Berechnungen sonst verfälscht werden können!");
+    error();
         }
     else if (anzahlKopien >= 100 && anzahlKopien <= 500) {
         if (stammkunde.equalsIgnoreCase("Ja")) {

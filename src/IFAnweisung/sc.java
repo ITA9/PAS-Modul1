@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class sc {
 
-    public static final Scanner sc = new Scanner(System.in);
+    public static final String sc = new String(String.valueOf(System.in));
     public sc() {
     }
 
