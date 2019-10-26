@@ -49,6 +49,7 @@ public class ElektroBlitz {
                 System.out.println("Fehler!:");
                 System.out.println("Bitte nur eine 1 oder eine 2 eingeben!");
         }
+        sc.close();
     }
     public static void Spannung() {
 
