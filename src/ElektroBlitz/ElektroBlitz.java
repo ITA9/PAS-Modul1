@@ -6,14 +6,16 @@ public class ElektroBlitz {
 
 
     public static void main (String[] args){
-        Start();
-
+        while (Start() == -1);
     }
 
 
     public static void error() {
         System.out.println("Fehler!:");
         System.out.println("Dieser Rechner dient nur zur Berechnung von Stromstärke, Spannung, Widerstand oder Leitwert");
+        System.out.println("Neuer Versuch");
+        System.out.println("");
+
     }
 
     public static void Stromstärke() {
@@ -70,30 +72,57 @@ public class ElektroBlitz {
     }
 
 
-    public static void Start() {
+    public static int Start() {
 
         Scanner sc = new Scanner(System.in);
         System.out.println("Welche Einheit soll berechnet werden? Stromstärke, Spannung, Widerstand oder Leitwert ");
         String ergebnis = sc.next();
 
-        if (!ergebnis.equalsIgnoreCase("Stromstärke") && !ergebnis.equalsIgnoreCase("Spannung") && !ergebnis.equalsIgnoreCase("Widerstand") && !ergebnis.equalsIgnoreCase("Leitwert")) {
-            error();
-        } else if (ergebnis.equalsIgnoreCase("Stromstärke")) {
-            Stromstärke();
+//        if (!ergebnis.equalsIgnoreCase("Stromstärke") && !ergebnis.equalsIgnoreCase("Spannung") && !ergebnis.equalsIgnoreCase("Widerstand") && !ergebnis.equalsIgnoreCase("Leitwert")) {
+//            error();
+//            return -1;
+//        } else if (ergebnis.equalsIgnoreCase("Stromstärke")) {
+//            Stromstärke();
+//
+//        } else if (ergebnis.equalsIgnoreCase("Spannung")) {
+//            Spannung();
+//
+//        } else if (ergebnis.equalsIgnoreCase("Widerstand")) {
+//            Widerstand();
+//
+//        } else if (ergebnis.equalsIgnoreCase("Leitwert")) {
+//            Leitwert();
+//
+//        }
 
-        } else if (ergebnis.equalsIgnoreCase("Spannung")) {
-            Spannung();
 
-        } else if (ergebnis.equalsIgnoreCase("Widerstand")) {
-            Widerstand();
+            switch(ergebnis)
+            {
+                case "Stromstärke":
+                    Stromstärke();
+                    break;
+                case "Spannung":
+                    Spannung();
+                    break;
+                case "Widerstand":
+                   Widerstand();
+                    break;
+                case "Leitwert":
+                    Leitwert();
+                    break;
+                default:
+                    error();
+                    return -1;
+            }
 
-        } else if (ergebnis.equalsIgnoreCase("Leitwert")) {
-            Leitwert();
 
-        }
+
+
+
 
 
 
         sc.close();
+        return 0;
     }
 }

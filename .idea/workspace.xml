@@ -112,6 +112,7 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" BundledDictionaries="32" BundledDictionary0="@types.dic" BundledDictionary1="lodash.dic" BundledDictionary2="eslint-config-airbnb.dic" BundledDictionary3="jetbrains.dic" BundledDictionary4="firebase.dic" BundledDictionary5="english.dic" BundledDictionary6="vuex.dic" BundledDictionary7="eslint.dic" BundledDictionary8="redux.dic" BundledDictionary9="less.dic" BundledDictionary10="core-js.dic" BundledDictionary11="express.dic" BundledDictionary12="prettier.dic" BundledDictionary13="angular.dic" BundledDictionary14="rxjs.dic" BundledDictionary15="vuetify.dic" BundledDictionary16="css.dic" BundledDictionary17="request.dic" BundledDictionary18="zone.js.dic" BundledDictionary19="@angular.dic" BundledDictionary20="async.dic" BundledDictionary21="bluebird.dic" BundledDictionary22="_javascript.dic" BundledDictionary23="cloudfront.dic" BundledDictionary24="android.dic" BundledDictionary25="struts2.dic" BundledDictionary26="/resources/dictionaries/spring.dic" BundledDictionary27="graphql.dic" BundledDictionary28="javascript.dic" BundledDictionary29="heroku.dic" BundledDictionary30="vue.dic" BundledDictionary31="debug.dic" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="project-level" UseSingleDictionary="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -130,7 +131,8 @@
       <workItem from="1570016724400" duration="815000" />
       <workItem from="1570048254203" duration="1869000" />
       <workItem from="1571583185834" duration="1006000" />
-      <workItem from="1572103250009" duration="203000" />
+      <workItem from="1572103250009" duration="478000" />
+      <workItem from="1572183454522" duration="1822000" />
     </task>
     <task id="LOCAL-00001" summary="ss">
       <created>1569836701486</created>
@@ -146,7 +148,14 @@
       <option name="project" value="LOCAL" />
       <updated>1571583631496</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Changelog:Update{&quot;Closed Leak&quot;}&#10;Check:iMonZ{Version:1.0.1}">
+      <created>1572103615067</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1572103615069</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -169,6 +178,7 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="ss" />
     <MESSAGE value="Dependency:Rainbow-Brackets{Update{Version:5.23-&gt;5.26}}&#10;Check:iMonZ{Version:1.0.0}" />
-    <option name="LAST_COMMIT_MESSAGE" value="Dependency:Rainbow-Brackets{Update{Version:5.23-&gt;5.26}}&#10;Check:iMonZ{Version:1.0.0}" />
+    <MESSAGE value="Changelog:Update{&quot;Closed Leak&quot;}&#10;Check:iMonZ{Version:1.0.1}" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changelog:Update{&quot;Closed Leak&quot;}&#10;Check:iMonZ{Version:1.0.1}" />
   </component>
 </project>
