@@ -4,6 +4,8 @@
     <list default="true" id="0fd25069-c7f9-48be-a02a-47a69e8463cf" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ElektroBlitz/ElektroBlitz.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ElektroBlitz/ElektroBlitz.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ElektroBlitz/ElektroBlitzGUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ElektroBlitz/ElektroBlitzGUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/IFAnweisung/Kopiershop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/IFAnweisung/Kopiershop.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,6 +26,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="SIGN_OFF_COMMIT" value="true" />
+    <option name="UPDATE_CHANGES_POLICY" value="SHELVE" />
   </component>
   <component name="ProjectId" id="1Re77LjlUxPG0bpFsHjeS1Nr6Zv" />
   <component name="ProjectLevelVcsManager">
@@ -132,7 +135,8 @@
       <workItem from="1570048254203" duration="1869000" />
       <workItem from="1571583185834" duration="1006000" />
       <workItem from="1572103250009" duration="478000" />
-      <workItem from="1572183454522" duration="1822000" />
+      <workItem from="1572183454522" duration="2071000" />
+      <workItem from="1572192617322" duration="978000" />
     </task>
     <task id="LOCAL-00001" summary="ss">
       <created>1569836701486</created>
@@ -155,7 +159,14 @@
       <option name="project" value="LOCAL" />
       <updated>1572103615069</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="- Better error">
+      <created>1572188118058</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1572188118059</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -179,6 +190,7 @@
     <MESSAGE value="ss" />
     <MESSAGE value="Dependency:Rainbow-Brackets{Update{Version:5.23-&gt;5.26}}&#10;Check:iMonZ{Version:1.0.0}" />
     <MESSAGE value="Changelog:Update{&quot;Closed Leak&quot;}&#10;Check:iMonZ{Version:1.0.1}" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changelog:Update{&quot;Closed Leak&quot;}&#10;Check:iMonZ{Version:1.0.1}" />
+    <MESSAGE value="- Better error" />
+    <option name="LAST_COMMIT_MESSAGE" value="- Better error" />
   </component>
 </project>

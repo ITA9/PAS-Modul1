@@ -11,7 +11,7 @@ public class ElektroBlitzGUI
 {
 	public static void main(String[] args)
 	{
-       System.out.println(sc.nextGabriel());
+       System.out.println(sc.nextLoong());
 
 
 	}

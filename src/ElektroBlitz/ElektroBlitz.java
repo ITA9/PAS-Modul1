@@ -96,19 +96,22 @@ public class ElektroBlitz {
 //        }
 
 
-            switch(ergebnis)
+            switch(ergebnis.toUpperCase())
             {
-                case "Stromstärke":
+                case "STROMSTÄRKE":
                     Stromstaerke();
                     break;
-                case "Spannung":
+                case "SPANNUNG":
                     Spannung();
                     break;
-                case "Widerstand":
+                case "WIDERSTAND":
                    Widerstand();
                     break;
-                case "Leitwert":
+                case "LEITWERT":
                     Leitwert();
+                    break;
+                case "AGAIN":
+                    Start();
                     break;
                 default:
                     error();
