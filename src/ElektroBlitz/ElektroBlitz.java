@@ -1,5 +1,6 @@
 package ElektroBlitz;
-import java.util.Scanner;
+
+import API.sc;
 
 public class ElektroBlitz {
 
@@ -10,16 +11,15 @@ public class ElektroBlitz {
     }
 
 
-    public static void error() {
+    private static void error() {
         System.out.println("Fehler!:");
         System.out.println("Dieser Rechner dient nur zur Berechnung von Stromstärke, Spannung, Widerstand oder Leitwert");
         System.out.println("Neuer Versuch");
-        System.out.println("");
+        System.out.println(" ");
 
     }
 
-    public static void Stromstärke() {
-        Scanner sc = new Scanner(System.in);
+    private static void Stromstaerke() {
         System.out.println("Welche werte sind vorhanden? Bitte die zugehörige Nummer der Formel angeben!");
         System.out.println("1: Spannung und Widerstand");
         System.out.println("2: Spannung und Leitwert");
@@ -51,30 +51,30 @@ public class ElektroBlitz {
                 System.out.println("Fehler!:");
                 System.out.println("Bitte nur eine 1 oder eine 2 eingeben!");
         }
-        sc.close();
+
     }
-    public static void Spannung() {
+    private static void Spannung() {
 
 
         System.out.println("Die Spannung");
     }
 
-    public static void Widerstand() {
+    private static void Widerstand() {
 
 
         System.out.println("Der Widerstand");
     }
 
-    public static void Leitwert() {
+    private static void Leitwert() {
 
 
         System.out.println("Der Leitwert");
     }
 
 
-    public static int Start() {
+    private static int Start() {
 
-        Scanner sc = new Scanner(System.in);
+
         System.out.println("Welche Einheit soll berechnet werden? Stromstärke, Spannung, Widerstand oder Leitwert ");
         String ergebnis = sc.next();
 
@@ -99,7 +99,7 @@ public class ElektroBlitz {
             switch(ergebnis)
             {
                 case "Stromstärke":
-                    Stromstärke();
+                    Stromstaerke();
                     break;
                 case "Spannung":
                     Spannung();
@@ -122,7 +122,7 @@ public class ElektroBlitz {
 
 
 
-        sc.close();
+
         return 0;
     }
 }

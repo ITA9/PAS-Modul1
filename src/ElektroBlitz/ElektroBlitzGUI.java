@@ -1,21 +1,18 @@
 package ElektroBlitz;
-import java.util.Scanner;
+import API.sc;
 
-/**
- * @author Max Vincent Goldgamer %% Gabriel Akrutat
- *
- */
-public class ElektroBlitzGUI {
-
-
-	public ElektroBlitzGUI() {
-		// TODO Auto-generated constructor stub
-	}
+import java.awt.*;
+		import java.util.Scanner;
+		import javax.swing.JFrame;
+		import javax.swing.JLabel;
 
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+public class ElektroBlitzGUI
+{
+	public static void main(String[] args)
+	{
+       System.out.println(sc.nextGabriel());
+
 
 	}
-
 }
