@@ -27,19 +27,12 @@ public class sc {
         return scL;
 
     }
-    public static String nextLoong() {
+    public static float nextFloat() {
         Scanner sc = new Scanner(System.in);
-        String looong = "YOOOUR LOOONG ISSSS VERYY SHOOOORTTT!!!!!!!!";
-        long scL = sc.nextLong();
-        return scL+looong;
+        float scF = sc.nextFloat();
+        return scF;
 
     }
 
-    public static String Datum() {
-        String Datum = java.time.LocalDate.now().toString();
-        return Datum;
-
-
-    }
 
 }
